@@ -1,0 +1,210 @@
+{
+  "music": [
+    [
+      {
+        "id": 1,
+        "name": "Vaathi coming",
+        "album": "Master",
+        "singer": "Anirudh",
+        "m_director": "Anirudh",
+        "lyricist": "Gana Balachender"
+      },
+      {
+        "id": 2,
+        "name": "Thenmozhi",
+        "album": "Thiruchitrambalam",
+        "singer": "Santhosh Narayanan",
+        "m_director": "Anirudh",
+        "lyricist": "Dhanush"
+      },
+      {
+        "id": 3,
+        "name": "Kala Chasma",
+        "album": "Baar Baar Dekho",
+        "singer": "Amar Arshi, Badshah & Neha Kakkar",
+        "m_director": "Prem Hardeep & Kam Dhillon",
+        "lyricist": "Amrik Singh & Kumaar"
+      },
+      [
+        {
+          "name": "Vaathi coming",
+          "album": "Master",
+          "singer": "Anirudh",
+          "m_director": "Anirudh",
+          "lyricist": "Gana Balachender"
+        },
+        {
+          "name": "Thenmozhi",
+          "album": "Thiruchitrambalam",
+          "singer": "Santhosh Narayanan",
+          "m_director": "Anirudh",
+          "lyricist": "Dhanush"
+        },
+        {
+          "name": "Kala Chasma",
+          "album": "Baar Baar Dekho",
+          "singer": "Amar Arshi, Badshah & Neha Kakkar",
+          "m_director": "Prem Hardeep & Kam Dhillon",
+          "lyricist": "Amrik Singh & Kumaar"
+        }
+      ],
+      [
+        {
+          "id": 1,
+          "name": "Vaathi coming",
+          "album": "Master",
+          "singer": "Anirudh",
+          "m_director": "Anirudh",
+          "lyricist": "Gana Balachender"
+        },
+        {
+          "id": 2,
+          "name": "Thenmozhi",
+          "album": "Thiruchitrambalam",
+          "singer": "Santhosh Narayanan",
+          "m_director": "Anirudh",
+          "lyricist": "Dhanush"
+        },
+        {
+          "id": 3,
+          "name": "Kala Chasma",
+          "album": "Baar Baar Dekho",
+          "singer": "Amar Arshi, Badshah & Neha Kakkar",
+          "m_director": "Prem Hardeep & Kam Dhillon",
+          "lyricist": "Amrik Singh & Kumaar"
+        },
+        [
+          {
+            "name": "Vaathi coming",
+            "album": "Master",
+            "singer": "Anirudh",
+            "m_director": "Anirudh",
+            "lyricist": "Gana Balachender"
+          },
+          {
+            "name": "Thenmozhi",
+            "album": "Thiruchitrambalam",
+            "singer": "Santhosh Narayanan",
+            "m_director": "Anirudh",
+            "lyricist": "Dhanush"
+          },
+          {
+            "name": "Kala Chasma",
+            "album": "Baar Baar Dekho",
+            "singer": "Amar Arshi, Badshah & Neha Kakkar",
+            "m_director": "Prem Hardeep & Kam Dhillon",
+            "lyricist": "Amrik Singh & Kumaar"
+          }
+        ]
+      ],
+      [
+        {
+          "id": 1,
+          "name": "Vaathi coming",
+          "album": "Master",
+          "singer": "Anirudh",
+          "m_director": "Anirudh",
+          "lyricist": "Gana Balachender"
+        },
+        {
+          "id": 2,
+          "name": "Thenmozhi",
+          "album": "Thiruchitrambalam",
+          "singer": "Santhosh Narayanan",
+          "m_director": "Anirudh",
+          "lyricist": "Dhanush"
+        },
+        {
+          "id": 3,
+          "name": "Kala Chasma",
+          "album": "Baar Baar Dekho",
+          "singer": "Amar Arshi, Badshah & Neha Kakkar",
+          "m_director": "Prem Hardeep & Kam Dhillon",
+          "lyricist": "Amrik Singh & Kumaar"
+        },
+        [
+          {
+            "name": "Vaathi coming",
+            "album": "Master",
+            "singer": "Anirudh",
+            "m_director": "Anirudh",
+            "lyricist": "Gana Balachender"
+          },
+          {
+            "name": "Thenmozhi",
+            "album": "Thiruchitrambalam",
+            "singer": "Santhosh Narayanan",
+            "m_director": "Anirudh",
+            "lyricist": "Dhanush"
+          },
+          {
+            "name": "Kala Chasma",
+            "album": "Baar Baar Dekho",
+            "singer": "Amar Arshi, Badshah & Neha Kakkar",
+            "m_director": "Prem Hardeep & Kam Dhillon",
+            "lyricist": "Amrik Singh & Kumaar"
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "name": "Vaathi coming",
+            "album": "Master",
+            "singer": "Anirudh",
+            "m_director": "Anirudh",
+            "lyricist": "Gana Balachender"
+          },
+          {
+            "id": 2,
+            "name": "Thenmozhi",
+            "album": "Thiruchitrambalam",
+            "singer": "Santhosh Narayanan",
+            "m_director": "Anirudh",
+            "lyricist": "Dhanush"
+          },
+          {
+            "id": 3,
+            "name": "Kala Chasma",
+            "album": "Baar Baar Dekho",
+            "singer": "Amar Arshi, Badshah & Neha Kakkar",
+            "m_director": "Prem Hardeep & Kam Dhillon",
+            "lyricist": "Amrik Singh & Kumaar"
+          },
+          [
+            {
+              "name": "Vaathi coming",
+              "album": "Master",
+              "singer": "Anirudh",
+              "m_director": "Anirudh",
+              "lyricist": "Gana Balachender"
+            },
+            {
+              "name": "Thenmozhi",
+              "album": "Thiruchitrambalam",
+              "singer": "Santhosh Narayanan",
+              "m_director": "Anirudh",
+              "lyricist": "Dhanush"
+            },
+            {
+              "name": "Kala Chasma",
+              "album": "Baar Baar Dekho",
+              "singer": "Amar Arshi, Badshah & Neha Kakkar",
+              "m_director": "Prem Hardeep & Kam Dhillon",
+              "lyricist": "Amrik Singh & Kumaar"
+            }
+          ]
+        ]
+      ]
+    ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

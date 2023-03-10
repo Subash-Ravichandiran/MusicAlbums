@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "../assets/Vaathi coming.jpg",
+      "name": "Vaathi Coming",
+      "album": "Master",
+      "singer": "Anirudh",
+      "m_director": "Anirudh",
+      "lyricist": "Gana Balachnader"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Thenmozhi.jpg",
+      "name": "Thenmozhi ",
+      "album": "Thiruchitrambalam",
+      "singer": "Santhosh Narayanan",
+      "m_director": "Anirudh Ravichander",
+      "lyricist": "Dhanush"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Kalachasma.jpg",
+      "name": "Kala Chasma",
+      "album": "Baar Baar Dekho",
+      "singer": "Amar Arshi, Badshah & Neha Kakkar",
+      "m_director": "Prem Hardeep & Kam Dhillon",
+      "lyricist": "Amrik Singh & Kumaar"
+    },
+    {
+      "id": 4,
+      "image": "../assets/vaathi.jpg",
+      "name": "Vaa Vaathi",
+      "album": "Vaathi",
+      "singer": "Swetha Mohan",
+      "m_director": "G V Prakash",
+      "lyricist": "Dhanush"
+    },
+    {
+      "id": 5,
+      "image": "../assets/KNV.jpg",
+      "name": "Kaalathukum Nee Venum",
+      "album": "VTK",
+      "singer": "Simbu and Rakshitha",
+      "m_director": "A R Rahman",
+      "lyricist": "Vivek"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

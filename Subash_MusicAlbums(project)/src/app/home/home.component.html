@@ -1,0 +1,117 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img [src]="img" width="60" height="60" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Artists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Songs</a>
+                </li>
+            </ul>
+            <form class="d-flex mx-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="d-flex">
+                <button type="button" (click)="clickAddMusic()" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Add Songs</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <div class="grid-container">
+        <div (click)="fetchMusics(mus)" *ngFor="let mus of musics">
+            <br>
+            <div class="grid-item">
+                <img [src]="mus.image" alt="image" width="200" height="200" />
+                <br><br>
+           
+
+                <button type="button" (click)="editMusics(mus)" class="btn btn-success mx-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" m>Edit</button>
+                <button type="button" (click)="deleteMusics(mus)" class="btn btn-danger">Delete</button>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Song Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+
+                <div class="modal-body">
+                    <form [formGroup]="formValue">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Image</label>
+                            <input type="text" class="form-control" formControlName="image" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Song Name</label>
+                            <input type="text" class="form-control" formControlName="name" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Album</label>
+                            <input type="text" class="form-control" formControlName="album" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Singer</label>
+                            <input type="text" class="form-control" formControlName="singer" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Music Director</label>
+                            <input type="text" class="form-control" formControlName="m_director"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Lyricist</label>
+                            <input type="text" class="form-control" formControlName="lyricist"
+                                id="exampleInputPassword1">
+                        </div>
+                    </form>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" *ngIf="showAdd" (click)="postMusics()" class="btn btn-primary">Add
+                        Songs</button>
+                    <button type="button" *ngIf="showUpdate" (click)="updateMusics()" class="btn btn-primary">Update
+                        Changes</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
